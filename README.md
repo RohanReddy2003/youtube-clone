@@ -1,1 +1,148 @@
-# youtube-clone
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="vidtube.css">
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <a href="vidtube.html"><img src="images/logo.png" class="logo"></a>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="search">
+                <img src="images/search.png">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/upload.png">
+            <img src="images/more.png">
+            <img src="images/notification.png">
+            <img src="images/Jack.png" class="user-icon">
+        </div>
+    </nav>
+    <div class="sidebar">
+        <div class="shrtcut-links">
+            <a href=""><img src="images/home.png"><p>Home</p></a>
+            <a href=""><img src="images/explore.png"><p>Explore</p></a>
+            <a href=""><img src="images/subscriprion.png"><p>Subsciption</p></a>
+            <a href=""><img src="images/library.png"><p>Library</p></a>
+            <a href=""><img src="images/playlist.png"><p>Playlist</p></a>
+            <a href=""><img src="images/history.png"><p>History</p></a>
+            <a href=""><img src="images/messages.png"><p>messages</p></a>
+            <a href=""><img src="images/show-more.png"><p>Show more</p></a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="images/Jack.png" ><p>Jack nicolson</p></a>
+            <a href=""><img src="images/simon.png" ><p>simon beker</p></a>
+            <a href=""><img src="images/tom.png" ><p>tom hardy</p></a>
+            <a href=""><img src="images/megan.png" ><p>magan ryan</p></a>
+            <a href=""><img src="images/cameron.png" ><p>cameron diaz</p></a>
+        </div>
+    </div>
+<div class="container">
+    <div class="banner">
+        <img src="images/banner.png">
+    </div>
+    <div class="list-container">
+        <div class="vid-list">
+            <a href="playvideo.html"><img src="images/thumbnail1.png" class="thumbnail"></a>
+            <div class="flex-div">
+                <a><img src="images/Jack.png"></a>
+                <div class="vid-info">
+                    <a href="playvideo.html">Web Developemnt</a>
+                    <p>Rohan's Channel</p>
+                    <p>10k  Views &bull; 2 Days</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="playvideo.html"><img src="images/thumbnail2.png" class="thumbnail"></a>
+            <div class="flex-div">
+                <a href=""><img src="images/Jack.png"></a>
+                <div class="vid-info">
+                    <a href="">Web Developemnt</a>
+                    <p>Rohan's Channel</p>
+                    <p>10k  Views &bull; 2 Days</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="playvideo.html"><img src="images/thumbnail3.png" class="thumbnail"></a>
+            <div class="flex-div">
+                <a href=""><img src="images/Jack.png"></a>
+                <div class="vid-info">
+                    <a href="">Web Developemnt</a>
+                    <p>Rohan's Channel</p>
+                    <p>10k  Views &bull; 2 Days</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="playvideo.html"><img src="images/thumbnail4.png" class="thumbnail"></a>
+            <div class="flex-div">
+                <a href=""><img src="images/Jack.png"></a>
+                <div class="vid-info">
+                    <a href="">Web Developemnt</a>
+                    <p>Rohan's Channel</p>
+                    <p>10k  Views &bull; 2 Days</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="playvideo.html"><img src="images/thumbnail5.png" class="thumbnail"></a>
+            <div class="flex-div">
+                <a href=""><img src="images/Jack.png"></a>
+                <div class="vid-info">
+                    <a href="">Web Developemnt</a>
+                    <p>Rohan's Channel</p>
+                    <p>10k  Views &bull; 2 Days</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="playvideo.html"><img src="images/thumbnail6.png" class="thumbnail"></a>
+            <div class="flex-div">
+                <a href=""><img src="images/Jack.png"></a>
+                <div class="vid-info">
+                    <a href="">Web Developemnt</a>
+                    <p>Rohan's Channel</p>
+                    <p>10k  Views &bull; 2 Days</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="playvideo.html"><img src="images/thumbnail7.png" class="thumbnail"></a>
+            <div class="flex-div">
+                <a href=""><img src="images/Jack.png"></a>
+                <div class="vid-info">
+                    <a href="">Web Developemnt</a>
+                    <p>Rohan's Channel</p>
+                    <p>10k  Views &bull; 2 Days</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="playvideo.html"><img src="images/thumbnail8.png" class="thumbnail"></a>
+            <div class="flex-div">
+                <a href=""><img src="images/Jack.png"></a>
+                <div class="vid-info">
+                    <a href="">Web Developemnt</a>
+                    <p>Rohan's Channel</p>
+                    <p>10k  Views &bull; 2 Days</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="vidtube.js"></script>
+</body>
+</html>
